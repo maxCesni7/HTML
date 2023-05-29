@@ -39,3 +39,13 @@ a{
     width: 700px; 
     height: 300px;
 }
+
+/* input[type=text] {
+    width: 15%;
+    margin: 8px 0;
+    box-sizing: border-box;
+  } */
+  form{
+    border: 1px solid black;
+    text-align: center;
+  }
