@@ -1,0 +1,41 @@
+
+/*Nomenclatura para que mas de un estilo se agregen a varios elementos.*/
+
+table, th, td{ 
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+p{
+    font-style: oblique;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+caption{
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;/*Modifica a todo el ancho de la ventana del navegador.*/
+    width: 300px; /*Define el tamaño maximo de la tabla en el ancho.*/
+    height: 200px; /*Define el tamaño maximo de la tabla en el Alto.*/
+}
+
+a{
+    text-decoration: none;
+}
+
+#stark_lema{
+    width: 50px;
+
+}
+
+#horario{
+    width: 100%;
+    width: 700px; 
+    height: 300px;
+}

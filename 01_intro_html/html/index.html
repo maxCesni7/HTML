@@ -1,0 +1,390 @@
+<!DOCTYPE html> <!-- Declaración que representa el tipo de documento y ayuda a los
+navegadores amostrar correctamente las paginas web-->
+<html lang="en"> <!--Se le conoce como elemento raíz-->
+    <head> <!-- Actúa coo contenedor de todo lo que sea incluir en la pagina HTML
+    QUE NO ES VISIBLE POR LOS VISITANTES DE LA PAGINA. Incluye palabras claves, 
+metadatos, vínculos, ect.-->
+        <meta charset="UTF-8"> <!-- -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Versión de l explorador-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Establece el tamaño inicial del pagina -->
+        <title>Pagina Web Camboot</title>
+    </head>
+    <body>
+        <!--<Nombre de la etiqueta> El contenido ....</cierre de la etiqueta>-->
+
+        <p>Hola soy un parrafo pequeñito</p> <!--Los parrafos usan p-->
+        
+        <!--Etiqutas de cabecera (h1, h2, h3, h4, h5, h6)-->
+        <h1>Soy una etiqueta h1</h1>
+        <h2>Soy una etiqueta h2</h2>
+        <h3>Soy una etiqueta h3</h3>
+        <h4>Soy una etiqueta h4</h4>
+        <h5>Soy una etiqueta h5</h5>
+        <h6>Soy una etiqueta h6</h6>
+
+        <!--Ctrl + K … Ctrl + C para comentar, para mi es ctrl + }
+        alt + z ->Ajustar la vista de la pantalla con el texto.
+        -->
+
+        <p>Estamos en la era Taisho de Japón. <i>Tanjiro</i>, un joven que se gana la vida vendiendo carbón, 
+            descubre un día que su familia ha sido asesinada por un demonio. b Para empeorar las cosas, 
+            su hermana menor Nezuko, la única superviviente de la masacre, <b> ha sufrido una transformación 
+            en demonio.</b>
+        <p>
+
+        </p> Destrozado por los acontecimientos Tanjiro decide convertirse en un <mark>cazador de 
+            demonios</mark> para poder devolver a su hermana a la normalidad y matar al demonio que masacró a
+            su familia.
+        </p>
+
+        <p>
+            “Gabimaru el Hueco”, un ninja de la Aldea Iwagakure conocido por su fría actitud, se encuentra ahora
+            en el corredor de la muerte. Cansado de la muerte y la traición, busca morir. No obstante, ningún 
+            método de ejecución parece funcionar en él debido a que Gabimaru, aunque no lo admite, aún tiene una 
+            razón para vivir. Él quiere volver a su hogar y ver a su esposa, la razón de su felicidad y por la 
+            que su trabajo como asesino comenzó a estorbarle. Por lo tanto, se niega a morir. <p>
+            
+            </p>Asaemon la ejecutora,
+            una famosa asesina de criminales, nota esto y le da una propuesta al ninja. Ella quiere que Gabimaru 
+            se una a una expedición a una isla al sur de Japón en la búsqueda del <del> elixir de la vida</del>, y a cambio 
+            le perdonará todos sus crímenes. No obstante, <em> esta isla no es un lugar normal: se cree que es el paraíso </em>.
+        </p>
+        <blockquote cite="https://www.youtube.com/watch?v=w6O6wR44AY4">
+                    <p>
+            Esta etiqueta nos permite citar un texto dentro de nuestro documento
+            HTML, es decir, proporciona un mecanismo para insertar signos de puntuación 
+            de citas antes y despues de una limitación.
+                    </p> 
+                </blockquote>
+
+
+        <!--Elementos de Fortmato
+
+        <b><b>.............Me permite agregar texto en negritas
+        <i><i> ............Agrega texot en cursiva
+        <mark><mark> ......Texto marcado o resaltado
+        <u><u> ............Formato de subrayado 
+        <sub><sub>.........Hacer que un elemento de texto se convierta en un sub indice (base numerica)
+        <sup><sup>.........Hacer que un elemento de texto se convierta en un indice superior (exponenete)
+        <del><del>.........Permite tachar el Texto.
+        <blockquote><blockquote>...Para hacer una cita
+        <strong><strong>...Texto importante, es un texto sumamente importante para el usuario
+        <em><em>...........Hace referencia a un texto enfatizado que detecta el navegador.
+        --> 
+
+        <!--Etiquetas divisoras y separadoras (No tienen cierre)
+
+            <hr> No sirve para dar una separación entre nustos párrafos.
+            Se muestra una linea horizontal para usar como separador
+            <br> Es un salto de linea
+
+
+        -->
+        <hr>
+        <p>
+            “Gabimaru el Hueco”, un ninja de la Aldea Iwagakure conocido por su fría actitud, se encuentra ahora
+            en el corredor de la muerte. Cansado de la muerte y la traición, busca morir. No obstante, ningún 
+            método de ejecución parece funcionar en él debido a que Gabimaru, aunque no lo admite, aún tiene una 
+            razón para vivir. Él quiere volver a su hogar y ver a su esposa, la razón de su felicidad y por la 
+            que su trabajo como asesino comenzó a estorbarle. Por lo tanto, se niega a morir. <p>
+
+            <br>
+
+            </p>Asaemon la ejecutora,
+            una famosa asesina de criminales, nota esto y le da una propuesta al ninja. Ella quiere que Gabimaru 
+            se una a una expedición a una isla al sur de Japón en la búsqueda del <del> elixir de la vida</del>, y a cambio 
+            le perdonará todos sus crímenes. No obstante, <em> esta isla no es un lugar normal: se cree que es el paraíso </em>.
+        </p>
+
+        <br><br><br>
+
+        <!--Atributos de HTML
+        Los atributos proposrcionan información sobrte los elementos de HTML
+        Todos los elementos de HTML, pueden tener atributos.
+        Los atributos siempre se especifican en la etiqueta de inicio.
+        Vienen en pares de nombre ejmplo: nombre="valor".
+
+        Atributos Globales. Se pueden aplicar a todos los elementos del documento, y no dependen de la etiqueta. En ellos podemos encontrar
+        -class: se usa para especificar un conjunto de elementos
+        -id: Se usa para identificar un elemento unico dentro de otro elemento
+        -style: propiedades de estilo style = "color red;"
+        -event: Se usa para especificar un evento que se ejecutara en un elemento.
+        hidden: Se usa para especificar un elemento
+
+
+        -->
+<h3>Atributos de html</h3>
+
+    </p style = "color: brown;"> <b style="color: goldenrod"> Asaemon la ejecutora </b>,
+    una famosa asesina de criminales, nota esto y le da una propuesta al ninja. Ella quiere que Gabimaru 
+    se una a una expedición a una isla al sur de Japón en la búsqueda del elixir de la vida, y a cambio 
+    le perdonará todos sus crímenes.
+    <p>
+
+    </p>
+    No obstante, <em> esta isla no es un lugar normal: se cree que es el paraíso </em>.
+    </p>
+
+    <p align = "Center">(centrado) No obstante, <em> esta isla no es un lugar normal: se cree que es el paraíso </em></p>
+    <p align = "rigth">(derecha) No obstante, <em> esta isla no es un lugar normal: se cree que es el paraíso </em></p>
+    <p align = "left">(izquierda) No obstante, <em> esta isla no es un lugar normal: se cree que es el paraíso </em>.</p>
+    <p align = "justify">(justificado) No obstante, <em> esta isla no es un lugar normal: se cree que es el paraíso </em>.</p>
+
+
+<br><br><br>
+<hr><hr>
+
+   <h3>Etiquetas de enlance</h3>
+   <!-- Los enlaces nos permiten la navegación por medio de hipervinculos (links) que realizan una conexión y referencian a  otros archivos o paginas web dentro de la misma aplicación o externas a la misma.
+
+    Para enlaces se utilizan la etiqueta "anchor" (ancla) y se representa con una <a><a>
+        Los principales atributos anclas son: 
+        - href: nos permite definir la ubicación de la pagina a la que vamos a enlazar nuestro poroyecto.
+        - _blank: abre una nueva ventana
+        - _self: abre el enlace en la misma ventana (valor por defaul).
+
+        Rutas absolutas: Son aquellas que definene la ubicación completa de una pagina web ejmplo: https://www.google.com.mx/
+        
+        Rutas relativas: Son la que definen a partir de la poscisón en la estructura local de la pagina que se esta refiriendo, es decir, solo indica el origen del directorio ejemplo: 01_intro/assets/icons.
+
+    -->
+
+
+    <!-- ABRE EL ENLACE EN LA MISMA PESTAÑA SIN ABRIR O CERRA OTRA NUEVA-->
+    <a href="https://www.google.com.mx/">Da click para ir a google en su pagina oficial.</a>
+    
+    <br><br>
+    <!-- ABRE EL ENLACE EN UNA NUEVA PESTAÑA-->
+    <a href="https://www.youtube.com/watch?v=GPitD0-mkYA" target="_blank
+    "> Mira el nuevo trailer de spiderman.</a>
+
+    <br><br>
+    <!-- Para enviar un correo electronico-->
+    <a href="mailto: c84max@hotmail.com"> Presiona aqui para enviarnos un correo</a>
+
+    <br><br>
+    <a href="/01_intro_html/assets/images/Passionlip.webp" download>Passionlip</a>
+
+    <br><br>
+    <hr><hr>
+
+    <H1>Día 2 de HTML</H1>
+
+    <!-- <img> etiqueta que sirve para almacenar imágenes
+        Atributos de imagen: 
+        - src: Define la ubicación del archivo (Local o remota)
+        - alt: Define un texto alterno a la imagen .
+        - width: define el ancho de la imagen. 
+        - height: define el alto de la imagen.
+
+    -->
+
+    <h3>Etiqueta de imagen</h3>
+    <img src="/assets/images/Passionlip.webp" alt="Foto de Passionlip en final ART" width="300PX">
+
+    <br><br>
+
+    <img src="https://w0.peakpx.com/wallpaper/931/695/HD-wallpaper-fate-series-fate-grand-order-sakura-matou.jpg" alt="Parvatí bailando FGO" width="400rem">
+
+    <br><br>
+    <a href="https://www.pinterest.com.mx/pin/698198748462402399/" target="_blank">
+    <img src="/assets/images/f6a3a8a65f38083119f7ef3b2e3a76ec.jpg" alt="fGO Beast 3L" width="300PX">
+    </a>
+
+    <!-- El Alter Ego M (アルターエゴ M, Arutā Ego M?) es una entidad creada por BB como un espíritu heroico mixto. Clasificada como una high-servant, Passionlip surgió de BB luego de haber accedido al archivo de servants de la Moon Cell y seleccionado diosas compatibles con el Ego. BB reprodujo finalmente los datos de las diosas, incluyéndolos así en Passionlip como una Divinidad Compuesta -->
+    <br><br>
+
+    <h3>Listas</h3>
+    <!--Lista y sus tipos 
+        Ordenadas: Siguen una secuencia de jerarquía (1, 2, 3, 4) siguen un orden->
+        1. Goetia
+        2. Tiamat
+        3. Kama
+        4. Kiara
+        Desordenadas: no siguen un proceso, por lo tanto no hay una numeración sino que existen viñetas. 
+         - Archer
+         - Moocancer
+         - Ruler
+         - Avenger
+
+        <ol> ordered List o lista ordenada </ol>
+        <ul> lista desordenada </ul>
+        <li> list item o elemento de la lista </li>
+    -->
+
+    <h4>Lista ordenada</h4>
+
+    <ol> Lista de Beast 
+        <li>Goetia</li>
+        <li>Tiamat</li>
+        <li>Kama</li>
+        <li>Kiara</li>
+    </ol>
+
+    <br>
+
+    <ul> Lista de clases
+        <li>Archer</li>
+        <li>Moocancer</li>
+        <li>Ruler</li>
+        <li>Avenger</li>
+    </ul>
+
+    <hr><hr>
+
+    <ol>Tacos Mexicanos 
+        <li>suadero</li>
+        <ul>
+            <li>salsa roja</li>
+            <li>salsa verde</li>
+        </ul>
+        <li>longaniza</li>
+        <ul>
+            <li>queso blanco</li>
+            <li>queso oxaca</li>
+        </ul>
+        <li>pastor</li>
+        <ul>   
+            <li>picada</li>
+                <ul>
+                    <li>cebolla</li>
+                    <li>picadillo</li>
+                </ul>
+            <li> masisa</li>
+        </ul>
+        <li>canasta</li>
+
+    </ol>
+
+    <br><br><br>
+
+    <ul>Lista de Niveles de alerta Volcanica
+        <li>Verde</li>
+            <ol>
+                <li>Fase 1</li>
+                <li>Fase 2</li>
+            </ol>
+        <li>Amarillo</li>
+            <ol>
+                <li>Fase 1</li>
+                <li>Fase 2</li>
+                <li>Fase 3</li>
+            </ol>
+        <li>Rojo</li>
+            <ol>
+                <li>Fase 1</li>
+                <li>Fase 2</li>
+            </ol>
+    </ul>
+
+    <ol> <h2>Lista de nieles del abismo y sus maldiciones</h2> 
+        <p></p>
+            <img src="/assets/images/Abbyss.jpg_large" alt="Mapa de nieveles del abysmo">
+        <p></p>
+        <li> <h3>El Borde del Abismo</h3> </li>
+            <ul>
+                <li>Mareos leves </li>
+                <li>Nauseas</li>
+            </ul>
+        <li><h3>El bosque de la tentación</h3> </li>
+            <ul>
+                <li>Nauseas fuertes</li>
+                <li>dolores de cabeza</li>
+                <li>dolores de cabeza</li>
+            </ul>
+        <li><h3>La Gran Falla</h3> </li>
+            <ul>
+                <li>Vértigo</li>
+                <li>Alucinaciones visuales y auditivas.</li>
+            </ul>
+        <li><h3> Cáliz de los Gigantes</h3></li>
+            <ul>
+                <li>Dolor extremo en todo el cuerpo</li>
+                <li>Hemorragias graves desde todos los agujeros del cuerpo.</li>
+            </ul>
+        <li><h3>El Mar de los Cadáveres</h3> </li>
+            <ul>
+                <li>Anulación de todos los sentidos</li>
+                <li>Confusión</li>
+                <li>comportamiento autodestructivo.</li>
+            </ul>
+        <li> <h3>La Capital Sin Retorno</h3></li>
+            <ul>
+                <li>Pérdida de la humanidad a través de modificaciones del cuerpo y/o muerte.</li>
+            </ul>
+        <li><h3>El Torbellino Final</h3></li>
+            <ul>
+                <li>???????????</li>
+                <li>Muerte Segura</li>
+            </ul>
+    </ol>
+    <br><br>
+
+    <h4>Listas de definiciones</h4>
+    <!-- Las listas de definiciones nos permiten contener propiamente definiciones
+    <dl></dl> Nos sirve para indicar que es una definition list o lista de definición.
+    <dt></dt> Nos indica que es una definition term o término de definición
+    <dd></dd> Nos indica una definición.
+    -->
+    <dl>
+        <dt>Mooncancer</dt>
+        <dd>Moon Cancer is an irregular Extra Class which was originally exclusive to the Artificial Intelligence known as B.B., who became a virus which threatened the sanctity of the Moon Cell in a certain parallel world.
+
+            The Class is more akin to a server-side threat designation than a complete Extra Class, so the qualifying parameters (other than simply being B.B.) are somewhat vague. Within the various parallel worlds to Proper Human History, the Moon typically recurs as an entity of ultimate power and authority, such as the Crimson Moon or the Moon Cell. </dd>
+        <dt>Ruler</dt>
+        <dd>Ruler was originally an Extra Class summoned by the Holy Grail to act as the adjudicators of the Holy Grail Wars of the Fate/Apocrypha timeline, or in any instance where the authority of the Holy Grail is threatened. Rulers are typically powerful and selfless individuals who have no desire for the Holy Grail and possess the ability to be impartial: thus, most Rulers are Saints or were very close to sainthood in life. </dd>
+    </dl>
+    
+    <br><br>
+
+    <hr>
+    <h3>Etiquestas de división</h3>
+    <!--La etiqueta de división se utiliza como contenedor de elementos html que luego se diseñan con css o se manipulan con javascript
+    
+    La etiqueta <div></div> se diseña facilmente utilizando los arreglos globales de "class" "id"
+
+    ¡Se puede poner cualquier tipo de contenido dentro de la etiqueta</div>
+
+    -->
+    <h4>El elemento div</h4>
+
+    <hr>
+    <div>
+        Este es un contenedor de texto
+    </div>
+    <hr>
+
+    <div class="conteiner" id="Contenedor_hijo" style="color: red; border: 1px solid red; background-color: yellow;">
+            <hr>
+                <p>Texto en un div</p>
+                <h4>parrafo en el div</h4>
+                <div id="contenedor_hijo" class="conteiner" style="color: blue; border: 3px solid green; background-color: aqua;" >Div dentro de otro div con el id contenedor_hijo
+                    <div id="contenedor_nieto" class="conteiner" style="color: greenyellow; border: 3px solid brown; background-color: red;" >
+                        Este es un div terciario con el id = contenedor_nieto
+                    </div>
+                </div>
+                <h5>Este es un texto h5 dentro de un div</h5>
+            <hr>
+    </div>
+
+    <br><br>
+    <!--
+        
+    Elemnto global class nos va a permitir compartir 
+    caracteristicas compartidas mediante clases.
+
+    id -> es un identificador, a diferencia de las clases los 
+    identificadores son unicos. El identificador no puede ser 
+    compartido entre otros elementos.
+
+    -->
+    <h3>Etiquta span</h3>
+    <!--La etiqueta span es contenedor de línea que se utiliza para marcar una parte de un texto o una parte de un documento
+    Es parecido a <div> pero <span></span> es un elemento a nivel linea
+    -->
+
+    <p style="color: blue; font-weight: bolder;"> El Alter Ego M (アルターエゴ M, Arutā Ego M?) es una entidad creada por BB como un espíritu heroico mixto. Clasificada como una high-servant,<span style="color: red;"> Passionlip </span>surgió de BB luego de haber accedido al archivo de servants de la <span style="color: gold;"> Moon Cell </span>y seleccionado diosas compatibles con el Ego. BB reprodujo finalmente los datos de las diosas, incluyéndolos así en Passionlip como una Divinidad Compuesta </p>
+
+    <br><br><br><br><br><br>
+    </body>
+</html>

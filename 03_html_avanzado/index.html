@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Tablas en HTML
+    
+    Una tabla es un conjunto de fialas y columnas que contienen información necesaria. Nos sirve para organizar y tener mejor visibilidad de los elementos.
+
+    *** Celda. Una celsa es la intersección entre una fila y columna que contiene información ecesaria.
+
+    En HTML definimos las celas utilixando la etiqueta <td></td>
+
+    ** Filas. LAS FILAS se defininen mediante la etiqueta <tr></tr>
+
+    **Encabezados de tabla. 
+    Se define los encabezados de tabla mediante la etiqueta <th></th>
+
+    Para iniciar una tabla en HTML, se define la etiqueta <table></table> y se divide en dos partes: 
+
+        -Cabeza de la tabla <thead></thead>
+        - Cuerpo de la tabla <tbody></tbody>
+-->
+<p>Tabla de Personas</p>
+
+<table>
+    <thead>
+        <tr> <!--Fila 1-->
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>País</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><!--Fila 2-->
+            <td>Hiram Navarro</td>
+            <td>23</td>
+            <td>México</td>
+        </tr>
+        <tr><!--Fila 3-->
+            <td>Pailina Ensastiga</td>
+            <td>19</td>
+            <td>Portugal</td>
+        </tr>
+        <tr><!--Fila 4-->
+            <td>Daniel Corona</td>
+            <td>22</td>
+            <td>Rusia</td>
+        </tr>
+    </tbody>
+</table>
+
+<!--Tabla 2
+    Crear una tabla donde crees el nombre, el apellido de los rey de cada reino.
+-->
+
+<p>Reyes de Westeros</p>
+
+<table>
+    <caption>Reyes de Westeros</caption> <!--Agregar el titulo a la tabla-->
+    <thead><!--Fila 1-->
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Castillo</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="https://lossietereinos.com/mapa-politico-de-poniente-juego-de-tronos/" target="_blank">Edark</a></td>
+            <td>Stark <br><img src="/assets/image/stark-sigil.webp" alt="Stark_lema" id="stark_lema"></td>
+            <td>Winterfell</td>
+        </tr>
+        <tr>
+            <td>Rober</td>
+            <td>Barateon</td>
+            <td>Stor´sEnd</td>
+        </tr>
+        <tr>
+            <td>Tywin</td>
+            <td>Lanister</td>
+            <td>Castelly Rock</td>
+        </tr>
+        <tr>
+            <td>Doran</td>
+            <td>Martel</td>
+            <td>Sunspear</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<BR></BR>
+<br><br>
+<!-- Instruciones
+    Diseña un horario de clases de lunes a viernes con 3 horarios (8:00 - 9:00; 9:00 - 10:00; 10:00 - 11:00) con las materias que gustes. Agrega estilos para que tu horario quede chido
+-->
+
+    <table id="horario">
+        <caption>Horario de Clases</caption>
+        <thead bgcolor="green">
+            <th>HORA</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 - 9:00</td>
+                <td>ESPAÑOL</td>
+                <td>GEOGRAFÍA</td>
+                <td>ESPAÑOL</td>
+                <td>NONE</td>
+                <td>GEOGRAFÍA</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td>MATEMATICAS</td>
+                <td>HISTORIA</td>
+                <td>GEOGRAFÍA</td>
+                <td>ESPAÑOL</td>
+                <td>NONE</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>ARTE</td>
+                <td>NONE</td>
+                <td>HISTORIA</td>
+                <td>MATEMATICAS</td>
+                <td>DEPORTES</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
