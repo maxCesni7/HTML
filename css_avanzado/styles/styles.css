@@ -1,0 +1,30 @@
+:root {
+    --primary: #F5F0BB;
+    --secondary: #C4DFAA; 
+    ---info: #90C8AC;
+    --contrast: #73A9AD;
+}
+
+body{
+    margin: 0;
+    font-family:'Karla', sans-serif;
+    background-color: var(--primary);
+}
+
+div{
+    /* padding: 10px 0px 10px 0px; */
+    border: 1px solid var(--secondary);
+    background-color: var(--contrast);
+    color: var(--secondary);
+}
+.static{
+    position: static; 
+    top: 200px;/*Static es el posicionamiento default de elementos HTML *//* No se ve afectado por top, bottom, left, right */
+}
+
+.relative{
+    position: relative;/*Relative es el posicionamiento que toma la posición inicial(natural = estatico) y modifica deacurdo a las variables de top, left, rigth o botom*/
+    top: 20px;
+    left: 50px;
+    bottom: 10px;
+}
