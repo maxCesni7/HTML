@@ -1,0 +1,65 @@
+
+/* Acomoda los elementos que se pueden acomodar dentro del espacio de las 12 columnas y deja fuera los que no tengan espacio.*/
+
+/*
+    aCOMODAR LOS ELEMNTOS EN BASE al espacio con 
+    justify-content: start; desde el inicio
+    justify-content: right; a la derecha
+    justify-content: space-around; todo el espacio de manera equitativa 
+    justify-content: space-between; Abarca el espacio que hay entre los elementos
+    justify-content: space-evenly Abarca los elementos hacia el cetro, justifica en base a la derecha e izq.
+
+
+*/
+
+.flex{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+    /* acomoda todos los elemntos dentro del espacio  y los envuelve nuevamente en otra fila 
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; Acomoda a los elementos de manera inversa
+   
+    flex-direction: column; Dirección en que los elementos deben envolverse. Fuerza las columnas
+
+    flex-wrap: column;
+    
+    flex-wrap: column; Fuerza al elemento a formarse en columnas cuando se cambie el tamaño y se ajusten de manera en columnas. 
+
+
+    flex-direction: colum;+
+    flex-wrap: wrap;
+ --------------------------
+    =flex-flow: row;
+    
+    https://www.w3schools.com/whatis/whatis_responsive.asp
+    */
+   
+
+
+    flex-wrap: column;
+}
+
+
+.flex > div{
+
+width: 100px;
+text-align: center;
+font-size: 1.5rem;
+background-color: var(--primary);
+margin: 20px;
+border: solid, 2px, white;
+}
+
+#num_7{
+
+    /*Todos los elemento tienen 0 en su posición inicial, cuando cambiamos el valor lo compara con los demas y lo envia al final en la ultima posción
+    
+        order: -1; Posición inicial porque es menor que 0
+
+    */
+
+    order: -1;
+}

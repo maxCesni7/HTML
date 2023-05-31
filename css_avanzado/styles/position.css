@@ -1,0 +1,38 @@
+
+
+.conteiner{
+    height: 1500px;
+}
+
+.static{
+    position: static; 
+    top: 200px;/*Static es el posicionamiento default de elementos HTML *//* No se ve afectado por top, bottom, left, right */
+}
+
+.relative{
+    position: relative;/*Relative es el posicionamiento que toma la posición inicial(natural = estatico) y modifica deacurdo a las variables de top, left, rigth o botom*/
+    top: 20px;
+}
+
+.fixed{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    /* top: 20px; Coloca los elementos en su espacio necesario sin que abarque todo el espacio. Esta determinado por el viwe port (Todo el ancho de la pantalla. Esto se define por viwewidth y viwelength.*/
+    /* top: 50px; */
+}
+
+.absolute{
+    position: absolute;
+    right: 50px;
+     /* top: 20px; Coloca los elementos en su espacio necesario sin que abarque todo el espacio. Esta determinado por el elemento que lo engloba o lo encierra, no toma en cuenta el viewport*/
+    /* top: 50px; */
+}
+
+/*
+Funciona igual que poscisión relative es que ocupa todo el espacio de la pantalla y Coloca el elemento en relación al VP y limitado por elemento que lo engloba en este caso revisar el experimento con 2 div. Siempre manteniendo el scroll su posición si este cambia hasta el limite del eleemnto englobado
+*/
+.sticky{
+    position: sticky;
+    top: 0px;
+}

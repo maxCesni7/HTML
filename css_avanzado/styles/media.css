@@ -1,0 +1,23 @@
+.media{
+text-align: center;
+
+} 
+
+@media (orientation: landscape){
+    h1{
+        color: var(---info);
+        font-size: 2rem;
+    }
+    /* div{
+        display: grid;
+        columns: auto, auto;
+    } */
+}
+
+@media (max-width: 500px) or (orientation: landscape)
+{
+    h1{
+        color: var(---info);
+        font-size: 3rem;
+    }
+}

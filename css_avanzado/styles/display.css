@@ -1,0 +1,20 @@
+/*
+display modifica la posición pero no de la misma manera que position
+*/
+
+/*Fuerza al texto a estar en linea con el texto que se encuentre a su mismo nivel.*/
+.inline{
+    display: inline;
+    font-size: 30px;
+}
+
+/*Fuerza al texto a tomar todo el espacio del elemento que lo encierra, forzando salto de linea para que el resto del texto se ajuste.*/
+.block{
+    display: block;
+
+}
+
+/*Con NONE, el texto no se renderiza y por eso es que no aparece.*/
+.none{
+    display: none;
+}
