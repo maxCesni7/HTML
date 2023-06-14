@@ -359,12 +359,15 @@ switch(fruta.toLowerCase()){
 }
 
 
+function saberCalificacion(){
+//let calificacion = 9.7;
 
-let calificacion = 9.7;
+let calificacion; 
+calificacion = prompt("¿Cual es tu calificación");
 
     switch(true){
         case calificacion < 6:
-            console.log(`nos vemos en extra`);
+            console.log(`Calificación no aprobatoria, necesitas repetir el curso`);
             break;
         case calificacion>=6 && calificacion<7: 
             if (calificacion%1==0){console.log("Tu calificación es: "+ calificacion+ " Necesitas asesorias");}
@@ -387,4 +390,5 @@ let calificacion = 9.7;
         default: console.log(`Introduce un numero entre 1 - 10 xd`)
             break
     }
-
+}
+saberCalificacion();
