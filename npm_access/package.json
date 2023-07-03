@@ -1,0 +1,16 @@
+{
+  "name": "@maxcesni7/rickandmortyapi_axios",
+  "version": "1.0.0",
+  "description": "Consumiendo Api de rick y Morthy en Axios",
+  "main": "simpleGet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "axios-get": "node simpleGet.js"
+    },
+  "keywords": ["api", "rickandmorthy", "axios"],
+  "author": "@maxcesni7",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}

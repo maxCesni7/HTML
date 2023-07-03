@@ -1,0 +1,17 @@
+.apodmain{
+    padding-top: 90px;
+}
+
+h1, h2, h3{
+    color: white; 
+}
+
+#date{
+    color: white; 
+}
+
+#explanation{
+    color: white; 
+    text-justify: inter-word;
+    text-justify: inter-word;
+}

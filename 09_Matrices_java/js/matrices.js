@@ -121,7 +121,7 @@ console.log("****************************************");
 let pushch28 = ch28.push("JuanK");
 console.log(ch28)
 
-//----splice() Elimina uno o vario elementos despues de una posición. 
+//----splice() Elimina uno o varios elementos despues de una posición. 
 console.log("Metodo splice");
 console.log("****************************************");
 
